@@ -291,3 +291,7 @@ hr {
 .small, small {
     font-size: 95%;
 }
+
+.units-row {
+    margin-bottom: 0px;
+}
