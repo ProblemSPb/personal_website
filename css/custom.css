@@ -131,7 +131,7 @@ a:hover {
 }
 
 .section.second {
-    margin-top: 35px;
+    margin-top: 25px;
     margin-bottom: 35px;
 }
 
@@ -157,9 +157,9 @@ a:hover {
 }
 
 .intro img {
-    width: 192px;
-
+    width: 220px;
     border-radius: 99px;
+    padding-right: 15px;
 }
 
 .intro .wrap {
@@ -219,6 +219,7 @@ a:hover {
 
 .cert .cert-list {
     margin-left: 0px;
+    margin-bottom: 25px;
 }
 
 .cert .cert-list li {
@@ -252,12 +253,13 @@ a:hover {
 .hobbies-list {
     width: 100%;
     display: inline-block;
+    justify-content: space-between;
 }
 
 .hobbies-list li {
     display: inline-block;
     width: 100px;
-    margin-right: 40px;
+    margin-right: 60px;
     text-align: center;
 }
 
@@ -314,6 +316,10 @@ hr {
     margin-right: 10px;
 }
 
+.icon-cv {
+    font-size: 1.3em;
+}
+
 .card {
     padding: 15px;
     border: none;
@@ -325,11 +331,14 @@ hr {
     border-right: 1px solid rgba(0, 0, 0, 0.05);
     border-top: 1px solid rgba(0, 0, 0, 0.05);
     border-bottom: none;
-
+    max-width: 450px;
 }
 
 .card img {
     border: 1px solid rgba(0, 0, 0, 0.05);
+    width: 450px;
+    height: 255px;
+    max-width: 450px;
 }
 
 .card-title {
@@ -342,6 +351,7 @@ hr {
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     padding-left: 20px;
     padding-bottom: 10px;
+    max-width: 450px;
 }
 
 .card-text {
@@ -354,4 +364,15 @@ hr {
 
 .units-row {
     margin-bottom: 0px;
+}
+
+#skills_logos li {
+    display: inline-block;
+    width: 60px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#skills_logos svg {
+    max-width: 70px;
 }
