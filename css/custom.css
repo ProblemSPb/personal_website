@@ -217,6 +217,10 @@ a:hover {
     color: darkorange;
 }
 
+.cert a:hover li:last-child{
+    color: darkorange;
+}
+
 .cert .cert-list {
     margin-left: 0px;
     margin-bottom: 25px;
@@ -269,6 +273,8 @@ a:hover {
 
 .hobbies-list svg {
     fill: #363738;
+    max-width: 60px;
+
 }
 
 .hobbies-list li:hover svg {
@@ -316,10 +322,6 @@ hr {
     margin-right: 10px;
 }
 
-.icon-cv {
-    font-size: 1.3em;
-}
-
 .card {
     padding: 15px;
     border: none;
@@ -364,15 +366,4 @@ hr {
 
 .units-row {
     margin-bottom: 0px;
-}
-
-#skills_logos li {
-    display: inline-block;
-    width: 60px;
-    margin-right: 20px;
-    text-align: center;
-}
-
-#skills_logos svg {
-    max-width: 70px;
 }
