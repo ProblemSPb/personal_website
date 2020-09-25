@@ -15,7 +15,7 @@ h2 {
 }
 
 h2:hover {
-    color: darkorange !important;
+    color: #e36414 !important;
 }
 
 a, p, li {
@@ -31,7 +31,7 @@ a:hover {
     text-decoration: none !important;
     /*color: #333333 !important;*/
     /*color: darkred !important;*/
-    color: darkorange !important;
+    color: #e36414 !important;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
@@ -120,6 +120,13 @@ a:hover {
     padding-top: 23px;
 }
 
+@media only screen and (max-width: 350px) {
+    /* For mobile phones: */
+    .main-nav {
+        width: 110%;
+    }
+}
+
 .main-nav nav ul li a {
     /*color: #a7a7a7;*/
     color: #4d4d4d;
@@ -151,6 +158,8 @@ a:hover {
     position: relative;
 }
 
+
+
 .intro {
     padding: 40px 0px 20px 0px;
     overflow-x: hidden;
@@ -179,8 +188,15 @@ a:hover {
     font-size: 47px;
 }
 
+@media only screen and (max-width: 320px) {
+    /* For mobile phones: */
+    .intro h1 span {
+        font-size: 25px;
+    }
+}
+
 #experiences:hover h2 {
-    color: darkorange;
+    color: #e36414;
 }
 
 .work .work-list {
@@ -205,20 +221,46 @@ a:hover {
     border-bottom: 1px solid #333333;
 }
 
+/*.work-list:hover li a {
+    border-bottom: 1px solid #333333;
+    color: #e36414;
+}*/
+
 #skills:hover h2 {
-    color: darkorange;
+    color: #e36414;
 }
 
 #projects:hover h2 {
-    color: darkorange;
+    color: #e36414;
+}
+
+.more-projects {
+    text-align: center;
+}
+
+.more-projects a {
+    font-family: "Lato", Arial, sans-serif;
+    font-weight: 500;
+    color: #4e4e4e;
+}
+
+.more-projects a:hover {
+    font-family: "Lato", Arial, sans-serif;
+    font-weight: 500;
+    color: #e36414;
+    /*border-bottom: 1px solid #e36414;*/
+}
+
+.more-projects span {
+    font-size: 0.8em;
 }
 
 #certifications:hover h2 {
-    color: darkorange;
+    color: #e36414;
 }
 
-.cert a:hover li:last-child{
-    color: darkorange;
+.cert a:hover li:last-child {
+    color: #e36414;
 }
 
 .cert .cert-list {
@@ -229,6 +271,16 @@ a:hover {
 .cert .cert-list li {
     font-size: 0.9375em;
     color: #8c8c8c;
+}
+
+.cert-list svg {
+    width: 14px;
+    height: 15px;
+    fill: #8c8c8c;
+}
+
+.cert a:hover svg{
+    fill: #e36414;
 }
 
 .cert .cert-list li:first-child {
@@ -251,7 +303,7 @@ a:hover {
 }
 
 #hobbies:hover h2 {
-    color: darkorange;
+    color: #e36414;
 }
 
 .hobbies-list {
@@ -271,6 +323,13 @@ a:hover {
     margin-right: 0;
 }
 
+@media only screen and (max-width: 576px) {
+    /* For mobile phones: */
+    .hobbies-list li:last-child {
+        margin-right: 60px;
+    }
+}
+
 .hobbies-list svg {
     fill: #363738;
     max-width: 60px;
@@ -278,11 +337,11 @@ a:hover {
 }
 
 .hobbies-list li:hover svg {
-    fill: darkorange;
+    fill: #e36414;
 }
 
 .hobbies-list li:hover span {
-    color: darkorange;
+    color: #e36414;
 }
 
 .hobbies-list span {
@@ -294,6 +353,13 @@ footer {
     padding: 50px 0px 0px 0px;
     background: #f4f4f4;
     margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 350px) {
+    /* For mobile phones: */
+    footer {
+        width: 110%;
+    }
 }
 
 footer .social li {
@@ -323,41 +389,59 @@ hr {
 }
 
 .card {
-    padding: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
     border: none;
     min-width: 350px;
+    margin-bottom: 0;
 }
 
 .card-body {
-    border-left: 1px solid rgba(0, 0, 0, 0.05);
-    border-right: 1px solid rgba(0, 0, 0, 0.05);
-    border-top: 1px solid rgba(0, 0, 0, 0.05);
-    border-bottom: none;
+    border: 1px solid rgba(0, 0, 0, 0.05);
     max-width: 450px;
+    padding: 2.25rem;
 }
 
 .card img {
     border: 1px solid rgba(0, 0, 0, 0.05);
     width: 450px;
-    height: 255px;
-    max-width: 450px;
+    /*height: 255px;*/
+    /*max-width: 450px;*/
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.card-body div {
+    bottom: 25px;
+    position: absolute;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 355px) {
+    /* For mobile phones: */
+    .card-body, .card img {
+        max-width: 320px;
+    }
 }
 
 .card-title {
     color: #e36414 !important;
 }
-.card-text-container {
-    border-left: 1px solid rgba(0, 0, 0, 0.05);
-    border-right: 1px solid rgba(0, 0, 0, 0.05);
-    border-top: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-    padding-left: 20px;
-    padding-bottom: 10px;
-    max-width: 450px;
-}
+
+/*.card-text-container {*/
+/*    border-left: 1px solid rgba(0, 0, 0, 0.05);*/
+/*    border-right: 1px solid rgba(0, 0, 0, 0.05);*/
+/*    border-top: none;*/
+/*    border-bottom: 1px solid rgba(0, 0, 0, 0.05);*/
+/*    padding-left: 20px;*/
+/*    padding-bottom: 10px;*/
+/*    max-width: 450px;*/
+/*}*/
 
 .card-text {
     font-size: 1em;
+    /*word-break: break-all;*/
+    white-space: normal;
 }
 
 .small, small {
