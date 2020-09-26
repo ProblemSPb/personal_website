@@ -191,7 +191,7 @@ a:hover {
 @media only screen and (max-width: 320px) {
     /* For mobile phones: */
     .intro h1 span {
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 
@@ -330,6 +330,16 @@ a:hover {
     /* For mobile phones: */
     .hobbies-list li:last-child {
         margin-right: 60px;
+    }
+    .intro h1 span {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    #avatar {
+        margin-bottom: 0;
+    }
+    #about {
+        padding: 0;
     }
 }
 
