@@ -3,7 +3,7 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Lato", serif;
+    font-family: "Lato", Palatino, serif;
     color: #333333;
 }
 
@@ -453,4 +453,29 @@ hr {
 
 .units-row {
     margin-bottom: 0px;
+}
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 60px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #555;
 }

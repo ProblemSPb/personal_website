@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/custom.css"/>
-
-    <link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -380,33 +378,15 @@
         </div>
     </div>
 
+    <a id="back2Top" title="Back to top" href="#">&#10148;</a>
+
 </footer>
 
 <script src="js/jquery.min.js"></script>
 <script src="js/typed.min.js"></script>
-<script>
-    function newTyped() {
-    }
-
-    $(function () {
-        $("#typed").typed({
-            // Dynamic strings
-            strings: ["HR Digital", "project management", "automation", "data visualization", "HR analytics", "development"],
-
-            typeSpeed: 90, backDelay: 700, contentType: "html", loop: !0, resetCallback: function () {
-                newTyped()
-            }
-        })
-    });
-</script>
-
-<script defer src="node_modules/svgxuse/svgxuse.js"></script>
-
+<script src="js/type-animation.js"></script>
+<script src="js/backtotop.js"></script>
+<!--<script defer src="node_modules/svgxuse/svgxuse.js"></script>-->
 
 </body>
 </html>
-
-
-<!--TODO: прочекать безопасные шрифты-->
-<!-- https://puzzleweb.ru/css/6_fonts3.php -->
-<!-- fonts.google.com -->
