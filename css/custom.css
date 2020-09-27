@@ -416,7 +416,9 @@ hr {
 }
 
 .card img {
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
     width: 450px;
     /*height: 255px;*/
     /*max-width: 450px;*/
