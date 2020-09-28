@@ -8,20 +8,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
+    padding: 5px 10px 5px 10px;
     font-size: 1.8em;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: black;
 }
 
 h2:hover {
-    color: #e36414 !important;
+    /*color: #0686A8 !important;*/
+    background-color: #0686A8;
+    color: white !important;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
 }
 
 a, p, li {
     font-family: "Lato", Arial, sans-serif;
-    /*color: #4e4e4e;*/
-    color: black;
+    color: #222222;
 
     font-size: 1em;
     line-height: 1.75em;
@@ -31,7 +32,7 @@ a:hover {
     text-decoration: none !important;
     /*color: #333333 !important;*/
     /*color: darkred !important;*/
-    color: #e36414 !important;
+    color: #0686A8 !important;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
@@ -116,8 +117,12 @@ a:hover {
 }
 
 .main-nav {
-    background: #f4f4f4;
+    /*background: #f4f4f4;*/
     padding-top: 23px;
+}
+
+#navbar-1 {
+    margin-bottom: 0;
 }
 
 @media only screen and (max-width: 350px) {
@@ -130,11 +135,17 @@ a:hover {
 .main-nav nav ul li a {
     /*color: #a7a7a7;*/
     color: #4d4d4d;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
 }
 
-.main-nav nav ul li.active a {
+.main-nav nav ul li.active {
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
     /*color: #4d4d4d;*/
-    color: black;
+    color: white;
+    /*background-color: #0686A8;*/
+    background-color: #0686A8;
 }
 
 .section.second {
@@ -157,8 +168,6 @@ a:hover {
     margin-bottom: 30px;
     position: relative;
 }
-
-
 
 .intro {
     padding: 40px 0px 20px 0px;
@@ -196,7 +205,11 @@ a:hover {
 }
 
 #experiences:hover h2 {
-    color: #e36414;
+    /*color: #0686A8;*/
+    background-color: #0686A8;
+    color: white !important;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
 }
 
 .work .work-list {
@@ -223,15 +236,23 @@ a:hover {
 
 /*.work-list:hover li a {
     border-bottom: 1px solid #333333;
-    color: #e36414;
+    color: #0686A8;
 }*/
 
 #skills:hover h2 {
-    color: #e36414;
+    /*color: #0686A8;*/
+    background-color: #0686A8;
+    color: white !important;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
 }
 
 #projects:hover h2 {
-    color: #e36414;
+    /*color: #0686A8;*/
+    background-color: #0686A8;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
 }
 
 .more-projects {
@@ -247,11 +268,15 @@ a:hover {
 #projects:hover .more-projects a {
     font-family: "Lato", Arial, sans-serif;
     font-weight: 500;
-    color: #e36414;
+    color: #0686A8;
+}
+
+.projects-page {
+    padding-top: 40px;
 }
 
 .card:hover a {
-    color: #e36414;
+    color: #0686A8;
 }
 
 .more-projects span {
@@ -259,11 +284,15 @@ a:hover {
 }
 
 #certifications:hover h2 {
-    color: #e36414;
+    /*color: #0686A8;*/
+    background-color: #0686A8;
+    color: white !important;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
 }
 
 .cert a:hover li:last-child {
-    color: #e36414;
+    color: #0686A8;
 }
 
 .cert .cert-list {
@@ -283,7 +312,7 @@ a:hover {
 }
 
 .cert a:hover svg{
-    fill: #e36414;
+    fill: #0686A8;
 }
 
 .cert .cert-list li:first-child {
@@ -306,7 +335,11 @@ a:hover {
 }
 
 #hobbies:hover h2 {
-    color: #e36414;
+    /*color: #0686A8;*/
+    background-color: #0686A8;
+    color: white !important;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
 }
 
 .hobbies-list {
@@ -350,11 +383,11 @@ a:hover {
 }
 
 .hobbies-list li:hover svg {
-    fill: #e36414;
+    fill: #0686A8;
 }
 
 .hobbies-list li:hover span {
-    color: #e36414;
+    color: #0686A8;
 }
 
 .hobbies-list span {
@@ -440,7 +473,7 @@ hr {
 }
 
 .card-title {
-    color: #e36414 !important;
+    color: black !important;
 }
 
 /*.card-text-container {*/
@@ -483,11 +516,13 @@ hr {
     bottom: 60px;
     right: 0;
     background-color: #DDD;
-    color: #555;
+    color: #8c8c8c;
+    /*color: #0686A8;*/
     text-align: center;
     font-size: 30px;
     text-decoration: none;
 }
 #back2Top:hover {
-    background-color: #555;
+    background-color: white;
+    border: 1px solid #0686A8;
 }
