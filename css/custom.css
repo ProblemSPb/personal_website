@@ -46,7 +46,7 @@ a:hover {
     padding: 0 20px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     .intro img {
         display: block;
         margin-left: auto;
@@ -55,6 +55,14 @@ a:hover {
 
     footer {
         text-align: center;
+    }
+
+    h2 {
+        /*color: #0686A8;*/
+        background-color: #0686A8;
+        color: white !important;
+        display: inline-block;
+        padding: 5px 10px 5px 10px;
     }
 }
 
@@ -130,6 +138,13 @@ a:hover {
     .main-nav {
         width: 110%;
     }
+    h2 {
+        /*color: #0686A8;*/
+        background-color: #0686A8;
+        color: white !important;
+        display: inline-block;
+        padding: 5px 10px 5px 10px;
+    }
 }
 
 .main-nav nav ul li a {
@@ -201,6 +216,13 @@ a:hover {
     /* For mobile phones: */
     .intro h1 span {
         font-size: 20px;
+    }
+    h2 {
+        /*color: #0686A8;*/
+        background-color: #0686A8;
+        color: white !important;
+        display: inline-block;
+        padding: 5px 10px 5px 10px;
     }
 }
 
@@ -374,6 +396,13 @@ a:hover {
     #about {
         padding: 0;
     }
+    h2 {
+        /*color: #0686A8;*/
+        background-color: #0686A8;
+        color: white !important;
+        display: inline-block;
+        padding: 5px 10px 5px 10px;
+    }
 }
 
 .hobbies-list svg {
@@ -405,6 +434,24 @@ footer {
     /* For mobile phones: */
     footer {
         width: 110%;
+    }
+    h2 {
+        /*color: #0686A8;*/
+        background-color: #0686A8;
+        color: white !important;
+        display: inline-block;
+        padding: 5px 10px 5px 10px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    /* For mobile phones: */
+    h2 {
+        /*color: #0686A8;*/
+        background-color: #0686A8;
+        color: white !important;
+        display: inline-block;
+        padding: 5px 10px 5px 10px;
     }
 }
 
@@ -469,6 +516,13 @@ hr {
     /* For mobile phones: */
     .card-body, .card img {
         max-width: 320px;
+    }
+    h2 {
+        /*color: #0686A8;*/
+        background-color: #0686A8;
+        color: white !important;
+        display: inline-block;
+        padding: 5px 10px 5px 10px;
     }
 }
 
